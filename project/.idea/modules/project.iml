@@ -21,21 +21,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
-      <library name="SBT: org.scala-lang:scala-library:2.10.4:jar" type="Scala">
-        <properties>
-          <compiler-classpath>
-            <root url="file://$USER_HOME$/.sbt/boot/scala-2.10.4/lib/scala-compiler.jar" />
-            <root url="file://$USER_HOME$/.sbt/boot/scala-2.10.4/lib/scala-library.jar" />
-            <root url="file://$USER_HOME$/.sbt/boot/scala-2.10.4/lib/scala-reflect.jar" />
-          </compiler-classpath>
-        </properties>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/lib/scala-library.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.10.4:jar" level="project" />
   </component>
 </module>
